@@ -16,6 +16,7 @@
         "chat": "https://laminas.dev/chat",
         "forum": "https://discourse.laminas.dev"
     },
+    "version" : "2.18.0.1",
     "config": {
         "allow-plugins": {
             "dealerdirect/phpcodesniffer-composer-installer": true
@@ -35,7 +36,7 @@
         "php": "~8.1.0 || ~8.2.0 || ~8.3.0",
         "laminas/laminas-servicemanager": "^3.21.0",
         "laminas/laminas-stdlib": "^3.0",
-        "psr/log": "^1.1.2"
+        "psr/log": "^1.1.2|^2.0|^3.0"
     },
     "require-dev": {
         "ext-dom": "*",
